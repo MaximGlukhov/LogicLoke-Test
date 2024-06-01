@@ -1,0 +1,15 @@
+.root {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    flex-grow: 1;
+}
+
+.loading {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+}
